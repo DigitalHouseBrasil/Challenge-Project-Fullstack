@@ -1,0 +1,30 @@
+{
+  "name": "Challenge-Project-Fullstack",
+  "version": "1.0.0",
+  "description": "![Captura de tela 2021-11-08 214941](https://user-images.githubusercontent.com/30291266/140842441-76f0da80-955f-4a50-9c02-775098bdd874.png)",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wendelcutrim/Challenge-Project-Fullstack.git"
+  },
+  "keywords": [],
+  "author": "Wendel Cutrim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wendelcutrim/Challenge-Project-Fullstack/issues"
+  },
+  "homepage": "https://github.com/wendelcutrim/Challenge-Project-Fullstack#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "method-override": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

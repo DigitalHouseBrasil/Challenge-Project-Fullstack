@@ -5,11 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="author" content="Wendel Cutrim">
-    <link rel="stylesheet" href="/css/global.css">
     <link rel="stylesheet" href="/css/home.css">
-    <title><%= pageTitle %>></title>
+    <title><%= pageTitle %></title>
 </head>
 <body>
-    <h1>Home Page</h1>
+    <%- include('components/header') %>
+    <section class="slide-1">
+        <img id="img-1" src="/img/Scene.png" alt="Background Scene">
+        <h1>Your awesome<br>
+            traffic permite<br>
+            consultant.
+        </h1>
+        <a href="#about">
+            <button>Get Started</button>
+        </a>
+        <img id="img-2" src="/img/mobel.png" alt="">
+    </section>
+
+    <section class="slide-2" id="about">
+        <h2>Mussum Ipsum, cacilds vidis litro abertis. Mauris nec dolor in eros commodo tempor.</h2>
+    </section>
 </body>
 </html>

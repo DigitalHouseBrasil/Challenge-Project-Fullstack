@@ -19,7 +19,7 @@ app.use(homeRouter);
 
 //Errors Route Response
 app.use((req, res, next) => {
-    res.status(404).render('Página não encontrada');
+    res.status(404).render('not-found');
 })
 
 

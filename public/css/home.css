@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik:ital@0;1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Roboto&family=Rubik:ital@0;1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background: url("/img/Scene.png")  no-repeat; */
+}
+
+header {
+    /* position: fixed; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    text-transform: uppercase;
+    font-family: 'Rubik';
+    z-index: 3;
+}
+
+.menu a{
+    text-decoration: none white;
+    width: 100%;
+    color: white;
+    cursor: pointer;
+    padding: 20px;
+}
+
+.slide-1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    z-index: 2;
+}
+
+#img-1 {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    width: 90%
+}
+
+.slide-1 h1 {
+    padding-left: 150px;
+    font-size: 100px;
+    font-weight: normal;
+    color: white;
+    font-family: 'DM Serif Display';
+}
+
+.slide-1 button {
+    position: relative;
+    left: 150px;
+    justify-content: center;
+    background-color: #EE4D47;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Rubik';
+    height: 60px;
+    border: none;
+    padding: 20px;
+    border-radius: 5px;
+    width: 15%;
+    cursor: pointer;
+}
+
+#img-2 {
+    position: relative;
+    left: 0;
+    top: 140px;
+    z-index: -1;
+    width: 34%;
+}
+
+.slide-2{
+    margin-top: 30vh
+}

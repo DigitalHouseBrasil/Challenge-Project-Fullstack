@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="/css/home.css">
     <title><%= pageTitle %></title>
 </head>
+
 <body>
     <%- include('components/header') %>
     <section class="slide-1">
@@ -23,7 +25,41 @@
     </section>
 
     <section class="slide-2" id="about">
-        <h2>Mussum Ipsum, cacilds vidis litro abertis. Mauris nec dolor in eros commodo tempor.</h2>
+        <div class="main-box">
+            <h2>About Us</h2>
+            <div id="img-box">
+                <img src="/img/Illustration.png" alt="illustration image">
+            </div>
+            <div id="text-box">
+                <p>The occupational traffic permit is one of the most important things in the company when carrying out
+                    freight transport. In fact, it is a prerequisite for doing business traffic at all. </p>
+            </div>
+            <div id="question">
+                <p>How do you do when you need to obtain a commercial traffic permit for freight transport to your
+                    business?</p>
+            </div>
+            <a href="#howTo">
+                <button>Hot to Apply?</button>
+            </a>
+        </div>
+
+    </section>
+
+    <section class="slide-3" id="howTo">
+        <article>
+            <div>
+                <img src="/img/illustrations.png" alt="">
+                <div id="text-slide-3">
+                    <h2>How To Apply</h2>
+                        <p>When applying for a traffic permit, there are certain requirements that you must meet that are included in the examination: requirements for professional knowledge, solid establishment, good reputation and financial resources. Important to remember is to confirm your application for a traffic permit by the company's company signer or CEO.</p>
+                    <a href="#faq"><button>Need Assistence?</button></a>
+                </div>
+            </div>
+        </article>
+    </section>
+    <section class="slide-4" id="faq">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti distinctio non ad mollitia qui natus ut, modi dicta tempore! Est debitis laboriosam omnis a deleniti aliquam vitae asperiores expedita amet!
     </section>
 </body>
+
 </html>
